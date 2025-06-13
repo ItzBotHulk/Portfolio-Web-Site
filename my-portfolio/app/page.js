@@ -63,44 +63,86 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="slider glow mt-20 opacity-85">
+        <div className="slider glow mt-20 opacity-85 ">
           <div className=" slideTrack flex items-center justify-center">
-            <div className="slide"><img src="/img/html.png"  alt="html" width={70}/></div>
-            <div className="slide"><img src="/img/css.jpg"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/javaScript.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/react.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/nextjs.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/node.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/express.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/tailwind.jpg"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/python.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/django.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/postman.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/mongodb.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/mongoose.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/git.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/github.png"  alt="img" width={70}/></div>
+            <div className="slide"><img src="/img/html.png" alt="html" width={70} /></div>
+            <div className="slide"><img src="/img/css.jpg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/javaScript.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/react.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/nextjs.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/node.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/express.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/tailwind.jpg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/python.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/django.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/postman.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/mongodb.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/mongoose.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/git.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/github.png" alt="img" width={70} /></div>
             {/* duplicate for loop */}
-           <div className="slide"><img src="/img/html.png"  alt="html" width={70}/></div>
-            <div className="slide"><img src="/img/css.jpg"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/javaScript.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/react.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/nextjs.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/node.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/express.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/tailwind.jpg"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/python.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/django.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/postman.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/mongodb.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/mongoose.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/git.png"  alt="img" width={70}/></div>
-            <div className="slide"><img src="/img/github.png"  alt="img" width={70}/></div>
+            <div className="slide"><img src="/img/html.png" alt="html" width={70} /></div>
+            <div className="slide"><img src="/img/css.jpg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/javaScript.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/react.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/nextjs.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/node.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/express.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/tailwind.jpg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/python.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/django.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/postman.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/mongodb.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/mongoose.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/git.png" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/github.png" alt="img" width={70} /></div>
           </div>
         </div>
-        <div className="projects">
-          Projects
+        {/* project cards */}
+
+        <div className="max-w-[100vw] min-h-screen mt-20">
+          <div className="flex flex-row mt-10 ">
+            {/* textbox */}
+            <div className="w-1/2  relative left-10 justify-end items-center flex">
+              <div className="h-52 w-[37vw] bg-white/20 backdrop-blur-md rounded-lg z-10">
+                abcd
+              </div>
+            </div>
+            {/* image  */}
+            <div className="w-1/2 justify-start items-center flex ">
+
+              <div className="h-[38.2vh] w-[35vw] bg-[#763CAC] rounded-xl hover:rounded-none z-0 hover:z-20 sr ">
+                <img src="/bgs/demo.webp" alt="demo" className="object-cover rounded-xl hover:rounded-none" />
+              </div>
+            </div>
+          </div>
+          {/* opposite */}
+          <div className="flex flex-row mt-10">
+            {/* image  */}
+            <div className="w-1/2 justify-end items-center flex">
+              <div className=" h-[38.2vh] w-[35vw] bg-yellow-600 rounded-xl hover:rounded-none z-0 hover:z-20 sl">
+                <img src="/bgs/demo.webp" alt="demo" className="object-cover rounded-xl hover:rounded-none" />
+              </div>
+            </div>
+            {/* textbox */}
+            <div className="w-1/2  relative right-10 justify-start items-center flex ">
+              <div className="h-52 w-[37vw] bg-white/20 backdrop-blur-md rounded-lg z-10">
+                abcd
+              </div>
+            </div>
+          </div>
         </div>
+        {/* About me  */}
+
+        <div>
+          about me
+        </div>
+
+
+
+
+
+
       </main>
     </>
   );

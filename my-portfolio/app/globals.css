@@ -112,3 +112,19 @@ body {
     transform: translateX(-3000px);
   }
 }
+
+.sr {
+  box-shadow: 0 10px 5px #320f85;
+}
+
+.sr:hover {
+  box-shadow: 15px 10px 5px #2a0b72;
+}
+
+.sl {
+  box-shadow: 0 10px 5px #320f85;
+}
+
+.sl:hover {
+  box-shadow: -15px 10px 5px #2a0b72;
+}
