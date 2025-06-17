@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  font-family: var(--font-poppins);
+}
+
+
 body {
   overflow-x: hidden;
 }
@@ -127,4 +132,13 @@ body {
 
 .sl:hover {
   box-shadow: 0 0 -13px 10px 5px #2a0b72;
+}
+
+.tech{
+}
+
+.tech:hover{
+    background-color: #3f3f43;
+    border-radius: 100%;
+    filter: invert(0);
 }

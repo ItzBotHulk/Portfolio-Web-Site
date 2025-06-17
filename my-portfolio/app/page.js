@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="  grid grid-cols-2 mt-[23vh] w-screen overflow-hidden">
+      <section className="  grid grid-cols-2 mt-[23vh] w-screen overflow-hidden ">
         <div className="avatar flex justify-center items-center">
           <img src="/img/avatar.png" width={600} alt="avatar" />
         </div>
@@ -14,21 +14,21 @@ export default function Home() {
           <h1 className="text-4xl justify-center text-white">A Full Stack Developer.</h1>
           <p className="text-xl text-white">Currently open to new opportunities in web development.</p>
           <div className="technologys flex flex-row flex-wrap w-[30vw] gap-2 justify-center items-center m-6">
-            <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="img/html.svg" alt="html" width={70} /></Link>
-            <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="img/css.svg" alt="css" width={70} /></Link>
-            <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="img/javascript.svg" alt="js" width={70} /></Link>
-            <Link href="https://react.dev/" target="_blank"><img src="img/react.svg" alt="react" width={70} /></Link>
-            <Link href="https://nextjs.org/" target="_blank"><img className="invert-100" src="img/nextjs.svg" alt="next" width={70} /></Link>
-            <Link href="https://nodejs.org/en" target="_blank"><img src="img/nodejs.svg" alt="node" width={70} /></Link>
-            <Link href="https://expressjs.com/" target="_blank"><img src="img/express.svg" alt="express" width={70} /></Link>
-            <Link href="https://tailwindcss.com/" target="_blank"><img src="img/tailwind.svg" alt="tailwind" width={70} /></Link>
-            <Link href="https://www.python.org/" target="_blank"><img src="img/python.svg" alt="python" width={70} /></Link>
-            <Link href="https://www.djangoproject.com/" target="_blank"><img src="img/django.svg" alt="django" width={70} /></Link>
-            <Link href="https://www.postman.com/" target="_blank"><img src="img/postman.svg" alt="postman" width={70} /></Link>
-            <Link href="https://www.mongodb.com/" target="_blank"><img src="img/mongodb.svg" alt="mongodb" width={70} /></Link>
-            <Link href="https://mongoosejs.com/" target="_blank"><img src="img/mongoose.svg" alt="mongoose" width={70} /></Link>
-            <Link href="https://git-scm.com/" target="_blank"><img src="img/git.svg" alt="git" width={70} /></Link>
-            <Link href="https://github.com/" target="_blank"><img src="img/github.svg" alt="github" width={70} /></Link>
+            <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="img/html.svg" alt="html" width={50} /></Link>
+            <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="img/css.svg" alt="css" width={50} /></Link>
+            <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="img/javascript.svg" alt="js" width={50} /></Link>
+            <Link href="https://react.dev/" target="_blank"><img src="img/react.svg" alt="react" width={50} /></Link>
+            <Link href="https://nextjs.org/" target="_blank"><img className="invert-100" src="img/nextjs.svg" alt="next" width={50} /></Link>
+            <Link href="https://nodejs.org/en" target="_blank"><img src="img/nodejs.svg" alt="node" width={50} /></Link>
+            <Link href="https://expressjs.com/" target="_blank"><img className="invert-75" src="img/express.svg" alt="express" width={50} /></Link>
+            <Link href="https://tailwindcss.com/" target="_blank"><img src="img/tailwind.svg" alt="tailwind" width={50} /></Link>
+            <Link href="https://www.python.org/" target="_blank"><img src="img/python.svg" alt="python" width={50} /></Link>
+            <Link href="https://www.djangoproject.com/" target="_blank"><img src="img/django.svg" alt="django" width={50} /></Link>
+            <Link href="https://www.postman.com/" target="_blank"><img src="img/postman.svg" alt="postman" width={50} /></Link>
+            <Link href="https://www.mongodb.com/" target="_blank"><img src="img/mongodb.svg" alt="mongodb" width={50} /></Link>
+            <Link href="https://mongoosejs.com/" target="_blank"><img src="img/mongoose.svg" alt="mongoose" width={50} /></Link>
+            <Link href="https://git-scm.com/" target="_blank"><img src="img/git.svg" alt="git" width={50} /></Link>
+            <Link href="https://github.com/" target="_blank"><img className="invert-75" src="img/github.svg" alt="github" width={50} /></Link>
           </div>
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function Home() {
                 <p>Jun 2024 - Aug 2024</p>
               </div>
               <div className="invert-100 pl-40">
-                <Link href='/certificate/Internship Certificate - Priyanshu.pdf' target="_blank">
+                <Link href='/certificate/Internship Certificate - Priyanshu Prajapati (1).pdf' target="_blank">
                   <svg className=" textglow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                     <path d="M11.5 22C7.49306 22 5.48959 22 4.2448 20.5355C3 19.0711 3 16.714 3 12C3 7.28596 3 4.92893 4.2448 3.46447C5.48959 2 7.49306 2 11.5 2C15.5069 2 17.5104 2 18.7552 3.46447C19.7572 4.64332 19.9527 6.40054 19.9908 9.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     <path d="M8 8H15M8 13H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -67,37 +67,37 @@ export default function Home() {
 
         <div className="slider glow mt-20 opacity-85 ">
           <div className=" slideTrack flex items-center justify-center">
-            <div className="slide"><img src="/img/html.svg" alt="html" width={70} /></div>
-            <div className="slide"><img src="/img/css.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/javaScript.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/react.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/nextjs.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/nodejs.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/express.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/tailwind.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/python.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/django.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/postman.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/mongodb.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/mongoose.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/git.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/github.svg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/html.svg" alt="html" width={50} /></div>
+            <div className="slide"><img src="/img/css.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/javaScript.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/react.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/nextjs.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/nodejs.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/express.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/tailwind.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/python.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/django.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/postman.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/mongodb.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/mongoose.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/git.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/github.svg" alt="img" width={50} /></div>
             {/* duplicate for loop */}
-            <div className="slide"><img src="/img/html.svg" alt="html" width={70} /></div>
-            <div className="slide"><img src="/img/css.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/javaScript.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/react.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/nextjs.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/nodejs.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/express.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/tailwind.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/python.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/django.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/postman.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/mongodb.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/mongoose.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/git.svg" alt="img" width={70} /></div>
-            <div className="slide"><img src="/img/github.svg" alt="img" width={70} /></div>
+            <div className="slide"><img src="/img/html.svg" alt="html" width={50} /></div>
+            <div className="slide"><img src="/img/css.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/javaScript.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/react.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/nextjs.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/nodejs.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/express.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/tailwind.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/python.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/django.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/postman.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/mongodb.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/mongoose.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/git.svg" alt="img" width={50} /></div>
+            <div className="slide"><img src="/img/github.svg" alt="img" width={50} /></div>
           </div>
         </div>
 
@@ -228,76 +228,86 @@ export default function Home() {
           <div>
             <h3 className="text-3xl my-7">Front End</h3>
             <div className="flex flex-wrap gap-4">
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/html.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">HTML</span>
+                <span className=" w-fit text-center align-middle ">HTML</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/css.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">CSS</span>
+                <span className=" w-fit text-center align-middle ">CSS</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/javascript.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">JavaScript</span>
+                <span className=" w-fit text-center align-middle ">JavaScript</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/react.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">React.js</span>
+                <span className=" w-fit text-center align-middle ">React.js</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/nextjs.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Next.js</span>
+                <span className=" w-fit text-center align-middle ">Next.js</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/bootstrap.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Bootstrap</span>
+                <span className=" w-fit text-center align-middle ">Bootstrap</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/tailwind.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Tailwind CSS</span>
+                <span className=" w-fit text-center align-middle ">Tailwind CSS</span>
               </div>
             </div>
           </div>
           <div>
             <h3 className="text-3xl my-7">Back End</h3>
             <div className="flex flex-wrap gap-4">
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/express.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Express.js</span>
+                <span className=" w-fit text-center align-middle ">Express.js</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <img className="w-10" src="/img/nodejs.svg" alt="html" />
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+                  <img className="w-10 hover:invert-100 " src="/img/nodejs.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Node.js</span>
+                <span className=" w-fit text-center align-middle ">Node.js</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/python.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Python</span>
+                <span className=" w-fit text-center align-middle ">Python</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <img className="w-10" src="/img/django.svg" alt="html" />
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+                  <img className="w-10 hover:invert-100" src="/img/django.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Django</span>
+                <span className=" w-fit text-center align-middle ">Django</span>
               </div>
 
             </div>
@@ -305,17 +315,19 @@ export default function Home() {
           <div>
             <h3 className="text-3xl my-7">Databases</h3>
             <div className="flex flex-wrap gap-4">
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/mongodb.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">MongoDb</span>
+                <span className=" w-fit text-center align-middle ">MongoDb</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/mongoose.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Mongoose</span>
+                <span className=" w-fit text-center align-middle ">Mongoose</span>
               </div>
 
             </div>
@@ -323,41 +335,47 @@ export default function Home() {
           <div>
             <h3 className="text-3xl my-7">Tools & Platforms</h3>
             <div className="flex flex-wrap gap-4">
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/git.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Git</span>
+                <span className=" w-fit text-center align-middle ">Git</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/github.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">GitHub</span>
+                <span className=" w-fit text-center align-middle ">GitHub</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/postman.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Postman</span>
+                <span className=" w-fit text-center align-middle ">Postman</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/vscode.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Vs Code</span>
+                <span className=" w-fit text-center align-middle ">Vs Code</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/figma.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Figma</span>
+                <span className=" w-fit text-center align-middle ">Figma</span>
               </div>
-              <div className="flex flex-col ">
-                <div className="h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
+              <div className="  flex flex-col h-20  items-center justify-center">
+
+                <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
                   <img className="w-10" src="/img/vercel.svg" alt="html" />
                 </div>
-                <span className=" w-fit text-center align-middle bg-amber-700">Vercel</span>
+                <span className=" w-fit text-center align-middle ">Vercel</span>
               </div>
             </div>
           </div>
@@ -366,10 +384,10 @@ export default function Home() {
         <div className="line bg-[#7127BA] opacity-90 h-1 w-[90vw] mx-20 my-20"></div>
 
 
-        {/* About me  */}
+        {/* Education  */}
 
         <div className="ml-[13vw] ">
-        <h2 className=" text-4xl font-extrabold">Education</h2>
+          <h2 className=" text-4xl font-extrabold">Education</h2>
           <div className="card ml-30 flex flex-col justify-center ">
             <div className="certificat flex my-10  items-center rounded-xl bg-[#190634] w-[60vw] h-[20vh] textglow ">
               <div className="logo">
