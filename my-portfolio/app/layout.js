@@ -1,4 +1,3 @@
-
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -18,17 +17,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       
       <body
-        className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
-          <div className="absolute top-0 z-[-2] h-screen w-[screen] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
-            
+        className="overflow-x-hidden absolute top-0 z-[-2] h-screen max-w-[100vw] w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+          <div className="w-full max-w-[100vw] overflow-x-hidden">
         <Navbar/>
         {children}
         <Footer/>
-          </div>
+            </div>
+         
       </body>
     </html>
   );
