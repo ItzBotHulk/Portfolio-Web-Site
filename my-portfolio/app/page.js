@@ -59,7 +59,7 @@ export default function Home() {
                 <p className="text-sm lg:text-base opacity-70">Jun 2024 - Aug 2024</p>
               </div>
               <div className="invert-100 justify-evenly flex my-10 lg:pl-32">
-                <Link href='/certificate/Internship Certificate - Priyanshu Prajapati (1).pdf' target="_blank">
+                <Link href='/documnet/Internship Certificate - Priyanshu Prajapati (1).pdf' target="_blank">
                   <svg className=" textglow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                     <path d="M11.5 22C7.49306 22 5.48959 22 4.2448 20.5355C3 19.0711 3 16.714 3 12C3 7.28596 3 4.92893 4.2448 3.46447C5.48959 2 7.49306 2 11.5 2C15.5069 2 17.5104 2 18.7552 3.46447C19.7572 4.64332 19.9527 6.40054 19.9908 9.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     <path d="M8 8H15M8 13H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -421,7 +421,7 @@ export default function Home() {
         </div>
         <div className="w-screen lg:ml-[13vw] ">
           <div className="card justify-center flex lg:flex-col flex-row ">
-            <div className="certificat lg:flex my-10  lg:justify-evenly lg:items-center rounded-xl bg-[#190634] lg:w-[70vw] max-w-[80vw] w-80  h-[55vh] lg:max-h-[30vh] textglow ">
+            <div className=" lg:flex my-10  lg:justify-evenly lg:items-center rounded-xl bg-[#190634] lg:w-[70vw] max-w-[80vw] w-80  h-[55vh] lg:max-h-[30vh] textglow ">
               <div className="logo flex justify-center items-center">
                 <Link href='https://sangamuniversity.ac.in/' target="_blank">
                   <img src="/img/sangam.png" className=" hover:invert-50 rounded-xl my-10 " alt="logo" width={80} />
