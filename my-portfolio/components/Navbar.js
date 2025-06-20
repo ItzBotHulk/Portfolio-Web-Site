@@ -2,6 +2,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [hide, setHide] = useState(false)
@@ -33,7 +34,7 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <ul className="hidden md:flex justify-center items-center text-xl gap-4">
           <Link href="/document/resume.pdf" target='_blank'><li className=" cursor-pointer hover:text-2xl ">Resume</li></Link>
-          <a href='/document/resume.pdf' download='/document/resume.pdf'><img className='invert-100 w-7 hover:w-10' src="/bgs/download.svg" alt="" /></a>
+          <a href='/document/resume.pdf' download='/document/resume.pdf'><Image width={10} height={10} className='invert-100 w-7 hover:w-10' src="/bgs/download.svg" alt="" /></a>
         </ul>
 
         {/* Mobile Menu Icon */}
@@ -56,7 +57,7 @@ const Navbar = () => {
         <div className="md:hidden fixed top-24 w-[60vw] justify-center flex bg-[#1a0b2e] rounded-xl shadow-lg z-40 text-white py-4 px-6 ">
           <ul className="flex flex-col justify-center items-center gap-3">
              <Link href="/document/resume.pdf" target='_blank'><li className=" cursor-pointer">Resume</li></Link>
-          <a href='/document/resume.pdf' download='/document/resume.pdf'><img className='invert-100 w-7 ' src="/bgs/download.svg" alt="" /></a>
+          <a href='/document/resume.pdf' download='/document/resume.pdf'><Image width={10} height={10} className='invert-100 w-7 ' src="/bgs/download.svg" alt="" /></a>
           </ul>
         </div>
         </div>
