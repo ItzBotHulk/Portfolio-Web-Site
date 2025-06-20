@@ -18,10 +18,10 @@ export default function Home() {
             <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><Image src="img/css.svg" alt="css" height={50} width={50} /></Link>
             <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><Image src="img/javascript.svg" alt="js" height={50} width={50} /></Link>
             <Link href="https://react.dev/" target="_blank"><Image src="img/react.svg" alt="react" height={50} width={50} /></Link>
-            <Link href="https://nextjs.org/" target="_blank"><Image className="invert-100" src="img/nextjs.svg" alt="next" height={50} width={50} /></Link>
-            <Link href="https://nodejs.org/en" target="_blank"><Image src="img/nodejs.svg" alt="node" height={50} width={50} /></Link>
-            <Link href="https://expressjs.com/" target="_blank"><Image className="invert-75" src="img/express.svg" alt="express" height={50} width={50} /></Link>
-            <Link href="https://tailwindcss.com/" target="_blank"><Image src="img/tailwind.svg" alt="tailwind" height={50} width={50} /></Link>
+            <Link href="https://nextjs.org/" target="_blank"><Image className="invert-100" src="img/nextjs.svg" alt="nextjs" height={50} width={50} /></Link>
+            <Link href="https://nodejs.org/en" target="_blank"><Image src="img/nodejs.svg" alt="nodejs" height={50} width={50} /></Link>
+            <Link href="https://expressjs.com/" target="_blank"><Image className="invert-75" src="img/express.svg" alt="expressjs" height={50} width={50} /></Link>
+            <Link href="https://tailwindcss.com/" target="_blank"><Image src="img/tailwind.svg" alt="tailwindcss" height={50} width={50} /></Link>
             <Link href="https://www.python.org/" target="_blank"><Image src="img/python.svg" alt="python" height={50} width={50} /></Link>
             <Link href="https://www.djangoproject.com/" target="_blank"><Image src="img/django.svg" alt="django" height={50} width={50} /></Link>
             <Link href="https://www.postman.com/" target="_blank"><Image src="img/postman.svg" alt="postman" height={50} width={50} /></Link>
@@ -76,36 +76,36 @@ export default function Home() {
         <div className="slider glow mt-20 opacity-85 w-full max-w-[100vw] overflow-x-hidden">
           <div className=" slideTrack flex items-center justify-center">
             <div className="slide"><Image src="/img/html.svg" alt="html" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/css.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/javaScript.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/react.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/nodejs.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/express.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/tailwind.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/python.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/postman.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/MongoDB.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/mongoose.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/git.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="img" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/css.svg" alt="css" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/javaScript.svg" alt="js" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/react.svg" alt="reactjs" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="nextjs" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/nodejs.svg" alt="nodejs" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/express.svg" alt="expressjs" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/tailwind.svg" alt="tailwindcss" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/python.svg" alt="python" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="django" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/postman.svg" alt="postman" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/MongoDB.svg" alt="mongodb" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/mongoose.svg" alt="mongoose" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/git.svg" alt="git" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="github" height={50} width={50} /></div>
             {/* duplicate for loop */}
             <div className="slide"><Image src="/img/html.svg" alt="html" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/css.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/javaScript.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/react.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/nodejs.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/express.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/tailwind.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/python.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/postman.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/MongoDB.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/mongoose.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/git.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="img" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/css.svg" alt="css" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/javaScript.svg" alt="js" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/react.svg" alt="reactjs" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="nextjs" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/nodejs.svg" alt="nodejs" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/express.svg" alt="expressjs" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/tailwind.svg" alt="tailwindcss" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/python.svg" alt="python" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="django" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/postman.svg" alt="postman" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/MongoDB.svg" alt="mongodb" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/mongoose.svg" alt="mongoose" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/git.svg" alt="git" height={50} width={50} /></div>
+            <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="github" height={50} width={50} /></div>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default function Home() {
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4">
                   <Link href='https://itzbothulk.github.io/e-Todo-site/' target="_blank"><Image height={20} width={20} src="/bgs/click.png"  alt="click" /></Link>
-                  <Link href='https://github.com/ItzBotHulk/e-Todo-site/tree/main' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="" /></Link>
+                  <Link href='https://github.com/ItzBotHulk/e-Todo-site/tree/main' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="github" /></Link>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function Home() {
             <div className="w-1/2 w-[90vw] lg:justify-end justify-center items-center flex ">
 
               <div className="md:h-auto lg:w-[35vw] md:w-[60vw] w-[90vw] bg-[#763CAC] rounded-xl hover:rounded-none z-0 hover:z-20 sr ">
-                <Image height={700} width={700} src="/project/getmeachai.png" alt="demo" className="object-cover rounded-xl hover:rounded-none" />
+                <Image height={700} width={700} src="/project/getmeachai.png" alt="getmeachai" className="object-cover rounded-xl hover:rounded-none" />
               </div>
             </div>
             {/* textbox */}
@@ -154,7 +154,7 @@ export default function Home() {
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4 lg:justify-end lg:pr-5">
                   <Link href='/' target="_blank"><Image height={20} width={20} src="/bgs/click.png" alt="click" /></Link>
-                  <Link href='https://github.com/ItzBotHulk/GetMeChai' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="" /></Link>
+                  <Link href='https://github.com/ItzBotHulk/GetMeChai' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="github" /></Link>
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4">
                   <Link href='/' target="_blank"><Image height={20} width={20} src="/bgs/click.png" alt="click" /></Link>
-                  <Link href='https://github.com/ItzBotHulk/LinkTree-Clone' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="" /></Link>
+                  <Link href='https://github.com/ItzBotHulk/LinkTree-Clone' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="github" /></Link>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
             <div className="w-1/2 w-[90vw] lg:justify-start justify-center items-center flex ">
 
               <div className="md:h-auto lg:w-[35vw] md:w-[60vw] w-[90vw] bg-[#763CAC] rounded-xl hover:rounded-none z-0 hover:z-20 sr ">
-                <Image height={700} width={700} src="/project/linktree.png" alt="demo" className="object-cover rounded-xl hover:rounded-none" />
+                <Image height={700} width={700} src="/project/linktree.png" alt="linktree" className="object-cover rounded-xl hover:rounded-none" />
               </div>
             </div>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4 lg:justify-end lg:pr-5">
 
                   <Link href='/' target="_blank"><Image height={20} width={20} src="/bgs/click.png" alt="click" /></Link>
-                  <Link href='https://github.com/ItzBotHulk/URL-Shortner' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="" /></Link>
+                  <Link href='https://github.com/ItzBotHulk/URL-Shortner' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="url-shortner" /></Link>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export default function Home() {
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4">
                   <Link href='/' target="_blank"><Image height={20} width={20} src="/bgs/click.png" alt="click" /></Link>
-                  <Link href='https://github.com/ItzBotHulk/PassSecure' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="" /></Link>
+                  <Link href='https://github.com/ItzBotHulk/PassSecure' target="_blank"><Image height={24} width={24} className="invert-100" src="/bgs/github.svg" alt="passsecure" /></Link>
                 </div>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function Home() {
             <div className="w-1/2 w-[90vw] lg:justify-start justify-center items-center flex ">
 
               <div className="md:h-auto lg:w-[35vw] md:w-[60vw] w-[90vw] bg-[#763CAC] rounded-xl hover:rounded-none z-0 hover:z-20 sr ">
-                <Image height={700} width={700} src="/project/passecure.png" alt="demo" className="object-cover rounded-xl hover:rounded-none" />
+                <Image height={700} width={700} src="/project/passecure.png" alt="passsecure" className="object-cover rounded-xl hover:rounded-none" />
               </div>
             </div>
           </div>
@@ -263,42 +263,42 @@ export default function Home() {
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/css.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/css.svg" alt="css" />
                 </div>
                 <span className=" w-fit text-center align-middle ">CSS</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/javascript.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/javascript.svg" alt="js" />
                 </div>
                 <span className=" w-fit text-center align-middle ">JavaScript</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/react.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/react.svg" alt="reactjs" />
                 </div>
                 <span className=" w-fit text-center align-middle ">React.js</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/nextjs.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/nextjs.svg" alt="nextjs" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Next.js</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/bootstrap.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/bootstrap.svg" alt="bootstrap" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Bootstrap</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/tailwind.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/tailwind.svg" alt="tailwindcss" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Tailwind CSS</span>
               </div>
@@ -310,28 +310,28 @@ export default function Home() {
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/express.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/express.svg" alt="expressjs" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Express.js</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10 hover:invert-100 " src="/img/nodejs.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10 hover:invert-100 " src="/img/nodejs.svg" alt="nodejs" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Node.js</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/python.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/python.svg" alt="python" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Python</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10 hover:invert-100" src="/img/django.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10 hover:invert-100" src="/img/django.svg" alt="django" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Django</span>
               </div>
@@ -344,14 +344,14 @@ export default function Home() {
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/MongoDB.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/MongoDB.svg" alt="mongodb" />
                 </div>
                 <span className=" w-fit text-center align-middle ">MongoDb</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/mongoose.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/mongoose.svg" alt="mongoose" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Mongoose</span>
               </div>
@@ -364,42 +364,42 @@ export default function Home() {
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/git.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/git.svg" alt="git" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Git</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/github.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/github.svg" alt="github" />
                 </div>
                 <span className=" w-fit text-center align-middle ">GitHub</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/postman.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/postman.svg" alt="postman" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Postman</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/vscode.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/vscode.svg" alt="vscode" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Vs Code</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/figma.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/figma.svg" alt="figma" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Figma</span>
               </div>
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/Vercel.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/Vercel.svg" alt="vercel" />
                 </div>
                 <span className=" w-fit text-center align-middle ">Vercel</span>
               </div>
