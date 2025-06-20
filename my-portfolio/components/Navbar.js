@@ -26,7 +26,7 @@ const Navbar = () => {
     <>
     <nav className='max-w-[100vw] flex justify-center items-center w-full overflow-y-hidden'>
       <div className={`navbar glow overflow-x-hidden my-6 md:mx-56 mx-auto flex justify-between items-center h-20 rounded-full fixed top-0 left-auto w-full transition-transform duration-300 transform z-50 
-        ${hide ? '-translate-y-[8vw]' : 'translate-y-0'} 
+        ${hide ? '-translate-y-[30vw]' : 'translate-y-0'}
         bg-[#1a0b2e] text-white p-4`}>
 
         <div className="logo mx-4 cursor-pointer text-xl font-bold">Portfolio</div>

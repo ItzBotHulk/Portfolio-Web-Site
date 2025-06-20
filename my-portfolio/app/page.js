@@ -77,7 +77,7 @@ export default function Home() {
           <div className=" slideTrack flex items-center justify-center">
             <div className="slide"><Image src="/img/html.svg" alt="html" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/css.svg" alt="css" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/javaScript.svg" alt="js" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/javascript.svg" alt="js" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/react.svg" alt="reactjs" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="nextjs" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/nodejs.svg" alt="nodejs" height={50} width={50} /></div>
@@ -93,7 +93,7 @@ export default function Home() {
             {/* duplicate for loop */}
             <div className="slide"><Image src="/img/html.svg" alt="html" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/css.svg" alt="css" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/javaScript.svg" alt="js" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/javascript.svg" alt="js" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/react.svg" alt="reactjs" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/nextjs.svg" alt="nextjs" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/nodejs.svg" alt="nodejs" height={50} width={50} /></div>
