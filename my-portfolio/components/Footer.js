@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
             </section>
             <div className='flex justify-center items-center w-[100vw] h-20 pt-5'>
-                <p className='text-center text-white'>Copyright &copy; {currentYear} Priyanshu's Portfolio - All rights reserved!</p>
+                <p className='text-center text-white'>Copyright &copy; {currentYear} Priyanshu&apos;s Portfolio - All rights reserved!</p>
             </div>
         </footer>
         </>

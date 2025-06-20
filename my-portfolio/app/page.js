@@ -121,7 +121,7 @@ export default function Home() {
             <div className="w-1/2 w-[80vw]  relative bottom-5 lg:top-0 lg:left-10 lg:justify-end justify-center items-center flex">
               <div className=" flex flex-col lg:h-44 lg:w-[37vw] md:w-[45vw] w-[80vw] bg-white/20 backdrop-blur xl rounded-lg z-10 md:p-5 lg:p-5 p-2">
                 <p className="text-left align-middle text-wrap lg:mr-4 mt-5">
-                  iTask Manager is a simple and efficient to-do website. All the tasks are securely stored in your browser's local storage, so there's no need for sign-ups or internet connection.
+                  iTask Manager is a simple and efficient to-do website. All the tasks are securely stored in your browser&apos;s local storage. so there&apos;s no need for sign-ups or internet connection.
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4">
                   <Link href='https://itzbothulk.github.io/e-Todo-site/' target="_blank"><Image height={20} width={20} src="/bgs/click.png"  alt="click" /></Link>
@@ -219,7 +219,7 @@ export default function Home() {
             <div className="w-1/2 w-[80vw]  relative bottom-5 lg:top-0 lg:left-10 lg:justify-end justify-center items-center flex">
               <div className=" flex flex-col lg:h-44 lg:w-[37vw] md:w-[45vw] w-[80vw] bg-white/20 backdrop-blur xl rounded-lg z-10 md:p-5 lg:p-5 p-2">
                 <p className="text-left align-middle text-wrap lg:mr-4 mt-5">
-                  PassSecure is a lightweight password saver that securely stores your passwords in your browser's local storage. It can always accessible directly from Chrome.
+                  PassSecure is a lightweight password saver that securely stores your passwords in your browser&apos;s local storage. It can always accessible directly from Chrome.
                 </p>
                 <div className="imgs flex flex-row gap-5 pt-10 lg:pt-4">
                   <Link href='/' target="_blank"><Image height={20} width={20} src="/bgs/click.png" alt="click" /></Link>
@@ -245,7 +245,7 @@ export default function Home() {
         <div id="skills" className="md:ml-[13vw] ml-5 md:mt-20 mt-5 max-w-[100vw] flex flex-col gap-6 w-full overflow-x-hidden">
           <div>
             <h2 className="text-4xl font-extrabold">My Skills</h2>
-            <p className="text-wrap mr-4">Technologies and tools I've worked with throughout my projects and experience</p>
+            <p className="text-wrap mr-4">Technologies and tools I&apos;ve worked with throughout my projects and experience</p>
           </div>
         </div>
 
