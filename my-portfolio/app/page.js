@@ -25,7 +25,7 @@ export default function Home() {
             <Link href="https://www.python.org/" target="_blank"><Image src="img/python.svg" alt="python" height={50} width={50} /></Link>
             <Link href="https://www.djangoproject.com/" target="_blank"><Image src="img/django.svg" alt="django" height={50} width={50} /></Link>
             <Link href="https://www.postman.com/" target="_blank"><Image src="img/postman.svg" alt="postman" height={50} width={50} /></Link>
-            <Link href="https://www.mongodb.com/" target="_blank"><Image src="img/mongoDB.svg" alt="mongodb" height={50} width={50} /></Link>
+            <Link href="https://www.mongodb.com/" target="_blank"><Image src="img/MongoDB.svg" alt="mongodb" height={50} width={50} /></Link>
             <Link href="https://mongoosejs.com/" target="_blank"><Image src="img/mongoose.svg" alt="mongoose" height={50} width={50} /></Link>
             <Link href="https://git-scm.com/" target="_blank"><Image src="img/git.svg" alt="git" height={50} width={50} /></Link>
             <Link href="https://github.com/" target="_blank"><Image className="invert-75" src="img/github.svg" alt="github" height={50} width={50} /></Link>
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="slide"><Image src="/img/python.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/postman.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/mongodb.svg" alt="img" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/MongoDB.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/mongoose.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/git.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="img" height={50} width={50} /></div>
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="slide"><Image src="/img/python.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/django.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/postman.svg" alt="img" height={50} width={50} /></div>
-            <div className="slide"><Image src="/img/mongodb.svg" alt="img" height={50} width={50} /></div>
+            <div className="slide"><Image src="/img/MongoDB.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/mongoose.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image src="/img/git.svg" alt="img" height={50} width={50} /></div>
             <div className="slide"><Image className="invert-100" src="/img/github.svg" alt="img" height={50} width={50} /></div>
@@ -344,7 +344,7 @@ export default function Home() {
               <div className="  flex flex-col h-20  items-center justify-center">
 
                 <div className="tech h-14 w-14 flex justify-center items-center bg-[#27272a] rounded-full">
-                  <Image width={40} height={40} className="w-10" src="/img/mongoDB.svg" alt="html" />
+                  <Image width={40} height={40} className="w-10" src="/img/MongoDB.svg" alt="html" />
                 </div>
                 <span className=" w-fit text-center align-middle ">MongoDb</span>
               </div>
